@@ -17,7 +17,7 @@ public class ProductPriceRepositoryAdapter implements ProductPriceRepository {
 
     @Override
     public Optional<ProductPrice> findApplicablePrice(Long productId, Long brandId, LocalDateTime applicationDate) {
-        return productPriceJpaRepository.findApplicablePrice(productId, brandId, applicationDate)
+        return productPriceJpaRepository.findPriceByProductBrandAndDate(productId, brandId, applicationDate)
                 .map(ProductPriceMapper::toDomain);
     }
 }

@@ -10,7 +10,7 @@ import jakarta.validation.ConstraintViolationException;
 @ControllerAdvice
 public class GlobalExceptionHandler {
     @ExceptionHandler(ConstraintViolationException.class)
-    public ProblemDetail handleResourceNotFound(ConstraintViolationException ex) {
+    public ProblemDetail handleConstraintViolation(ConstraintViolationException ex) {
         ProblemDetail problemDetail = ProblemDetail.forStatusAndDetail(HttpStatus.BAD_REQUEST, ex.getMessage());
         problemDetail.setTitle("Invalid Request");
         return problemDetail;
