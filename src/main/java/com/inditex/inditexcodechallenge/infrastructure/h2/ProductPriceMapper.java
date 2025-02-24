@@ -1,6 +1,6 @@
-package com.inditex.inditexcodechallenge.infrastructure.adapter.outbound;
+package com.inditex.inditexcodechallenge.infrastructure.h2;
 
-import com.inditex.inditexcodechallenge.domain.ProductPrice;
+import com.inditex.inditexcodechallenge.domain.model.ProductPrice;
 
 import lombok.experimental.UtilityClass;
 

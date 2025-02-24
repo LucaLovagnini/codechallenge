@@ -1,4 +1,4 @@
-package com.inditex.inditexcodechallenge.infrastructure.adapter.outbound;
+package com.inditex.inditexcodechallenge.infrastructure.h2;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

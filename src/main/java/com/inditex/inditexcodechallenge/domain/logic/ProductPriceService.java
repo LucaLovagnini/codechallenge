@@ -1,11 +1,11 @@
-package com.inditex.inditexcodechallenge.application.service;
+package com.inditex.inditexcodechallenge.domain.logic;
 
 import java.time.LocalDateTime;
 import java.util.Optional;
 
-import com.inditex.inditexcodechallenge.application.port.input.GetProductPriceUseCase;
-import com.inditex.inditexcodechallenge.application.port.output.ProductPriceRepository;
-import com.inditex.inditexcodechallenge.domain.ProductPrice;
+import com.inditex.inditexcodechallenge.domain.api.GetProductPriceUseCase;
+import com.inditex.inditexcodechallenge.domain.spi.ProductPriceRepository;
+import com.inditex.inditexcodechallenge.domain.model.ProductPrice;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;

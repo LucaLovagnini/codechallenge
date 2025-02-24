@@ -1,4 +1,4 @@
-package com.inditex.inditexcodechallenge.application.service;
+package com.inditex.inditexcodechallenge.domain.logic;
 
 import java.math.BigDecimal;
 
@@ -8,8 +8,8 @@ import static org.mockito.Mockito.when;
 import java.time.LocalDateTime;
 import java.util.Optional;
 
-import com.inditex.inditexcodechallenge.application.port.output.ProductPriceRepository;
-import com.inditex.inditexcodechallenge.domain.ProductPrice;
+import com.inditex.inditexcodechallenge.domain.spi.ProductPriceRepository;
+import com.inditex.inditexcodechallenge.domain.model.ProductPrice;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

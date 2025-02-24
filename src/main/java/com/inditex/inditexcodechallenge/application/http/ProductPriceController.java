@@ -1,11 +1,11 @@
-package com.inditex.inditexcodechallenge.infrastructure.adapter.inbound;
+package com.inditex.inditexcodechallenge.application.http;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.inditex.inditexcodechallenge.application.port.input.GetProductPriceUseCase;
-import com.inditex.inditexcodechallenge.domain.ProductPrice;
+import com.inditex.inditexcodechallenge.domain.api.GetProductPriceUseCase;
+import com.inditex.inditexcodechallenge.domain.model.ProductPrice;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

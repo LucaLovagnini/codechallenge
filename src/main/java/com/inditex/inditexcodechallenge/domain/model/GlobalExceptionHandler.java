@@ -1,4 +1,4 @@
-package com.inditex.inditexcodechallenge.exception; // spell-checker: disable-line
+package com.inditex.inditexcodechallenge.domain.model; // spell-checker: disable-line
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;

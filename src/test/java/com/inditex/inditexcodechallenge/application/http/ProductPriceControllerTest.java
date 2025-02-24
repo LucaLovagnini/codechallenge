@@ -1,4 +1,4 @@
-package com.inditex.inditexcodechallenge.infrastructure.adapter.inbound;
+package com.inditex.inditexcodechallenge.application.http;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyLong;
@@ -19,8 +19,8 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
 
-import com.inditex.inditexcodechallenge.application.port.input.GetProductPriceUseCase;
-import com.inditex.inditexcodechallenge.domain.ProductPrice;
+import com.inditex.inditexcodechallenge.domain.api.GetProductPriceUseCase;
+import com.inditex.inditexcodechallenge.domain.model.ProductPrice;
 
 @WebMvcTest(ProductPriceController.class)
 class ProductPriceControllerTest {

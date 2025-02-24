@@ -1,12 +1,12 @@
-package com.inditex.inditexcodechallenge.infrastructure.adapter.outbound;
+package com.inditex.inditexcodechallenge.infrastructure.h2;
 
 import java.time.LocalDateTime;
 import java.util.Optional;
 
 import org.springframework.stereotype.Repository;
 
-import com.inditex.inditexcodechallenge.application.port.output.ProductPriceRepository;
-import com.inditex.inditexcodechallenge.domain.ProductPrice;
+import com.inditex.inditexcodechallenge.domain.spi.ProductPriceRepository;
+import com.inditex.inditexcodechallenge.domain.model.ProductPrice;
 
 import lombok.RequiredArgsConstructor;
 

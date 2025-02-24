@@ -45,7 +45,7 @@ Notice that tests process include:
 
 The project follows a standard Spring Boot structure with the following key packages:
 
-- `com.inditex.inditexcodechallenge.application`: Contains the application logic, ports and service classes
-- `com.inditex.inditexcodechallenge.domain`: Contains the domain models
-- `com.inditex.inditexcodechallenge.infrastructure`: Contains adapters and beans
+- `com.inditex.inditexcodechallenge.application`: Contains the application controller
+- `com.inditex.inditexcodechallenge.domain`: Contains the models, apis, infrastructure contract, and business logic
+- `com.inditex.inditexcodechallenge.infrastructure`: Contains db implementation, model and beans
 

@@ -1,4 +1,4 @@
-package com.inditex.inditexcodechallenge.infrastructure.adapter.outbound;
+package com.inditex.inditexcodechallenge.infrastructure.h2;
 
 import static org.mockito.Mockito.when;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -13,7 +13,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import com.inditex.inditexcodechallenge.domain.ProductPrice;
+import com.inditex.inditexcodechallenge.domain.model.ProductPrice;
 
 @ExtendWith(MockitoExtension.class)
 public class ProductPriceRepositoryAdapterTest {
